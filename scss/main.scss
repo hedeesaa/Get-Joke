@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(250, 250, 61);
+  font-family: "Concert One", cursive;
+  color: #333;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+  background: white;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  letter-spacing: 0.3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  label {
+    margin-bottom: 0.5rem;
+  }
+  #number {
+    border-radius: 3px;
+    border: 1px rgb(179, 179, 179) solid;
+    padding: 0.3rem;
+  }
+  #submit {
+    border-radius: 3px;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 50px;
+  display: none;
+  margin: 0 auto;
+}
+
+.joke-container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1rem;
+  background: white;
+  border-radius: 3px;
+  padding: 1rem;
+}
